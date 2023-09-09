@@ -1,7 +1,26 @@
 h1 {
     text-align: center;
+    color: red;
 }
 
-h2 {
+h2, span {
     text-align: center;
+    color: blue;
+    font-size: 1em;
 }
+
+li strong  {
+    color: purple;
+}
+
+body > p {
+    color: red;
+    font-size: 1em;
+}
+
+/* 0, 0, 1, 0  */
+.li-p:hover {
+    color: green;
+}
+
+/* Specifity is calculated on this basis: inline, id, class, element/tag */
